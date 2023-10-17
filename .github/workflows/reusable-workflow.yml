@@ -19,7 +19,7 @@ jobs:
           echo "The node version to use is: ${{ inputs.node }}"
 
   call-reusable-workflow:
-          uses: ./.github/workflows/reusable-workflow.yml
-          with: 
-             node: 14
+      uses: ./.github/workflows/reusable-workflow.yml
+      with:
+        node: 14
       
